@@ -1,0 +1,267 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;;
+}
+
+.topnav {
+    overflow: hidden;
+    top:0;
+    width: 100%;
+  
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 16px;
+    
+  }
+
+  .topnav a img{
+    background-color: white;
+    height: 40px;
+    width: 170px;
+    margin-left: 20px;
+  }
+   
+  .topnav a:hover {
+    
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .login-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width:100px;
+    text-align: center;
+  }
+  
+  .topnav .login-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 15px;
+    margin-right: 60px;
+    background-color: rgb(36, 27, 27);
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+ .btn1{
+    background-color: gray;
+    color: #2196F3;
+  }
+  
+  .topnav .login-container button:hover {
+    background-color: rgb(81, 83, 81);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav .login-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .login-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+
+  .container-fluid{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+  }
+
+  .container-fluid .text1{
+    color: white;  
+  }
+  .slider{
+    width: 85%;
+    margin: auto;
+  }
+  .owl-carousel .item{
+    width: 100%;
+    margin-top:30px;
+  }
+ 
+  .owl-carousel .item img{
+    height: 300px;
+    border-radius: 5px;
+  }
+  
+
+  /* section-2-start */
+
+  .center{
+    margin-top:70px;
+  }
+  .center p{
+    color:gray;
+  }
+  .container{
+    display: flex;
+    background: rgb(245, 243, 243);    
+    flex-basis: 25%;   
+    position:relative;
+    overflow: hidden;
+    margin: 10px;
+    padding:10px;
+    border-radius: 7px;
+
+}
+
+.content2{
+   text-align: center;
+   justify-content: center;
+   margin:auto;
+   background-color: white;
+   cursor: pointer;
+   border-radius: 10px;
+   padding:0px 30px;
+  
+
+}
+.content2 h5{
+  padding:20px 30px;
+  color:black;
+}
+  /* section-2-end */
+  
+  .section-3{
+  width: 100%;
+  background-color: #2D2D2D;
+ }
+  .center h3{
+    color:white;
+  
+ }
+ .center p{
+  color:white;
+ }
+
+ .container-md .row{
+  padding:15px;
+  
+ }
+ .col-sm-6 .card{
+  background-color: #5A5A5A;
+ }
+ 
+ .col-sm-6 .card h5,p{
+  color: white;
+ }
+ .col-sm-6 .card p{
+  font-size: 12px;
+ }
+ .section-4 .center h3{
+  color:black;
+ }
+ .section-4 .center p{
+  color: black;
+ }
+
+ .section-4{
+  width: 100%;
+  
+ }
+ .sec-4{
+  width: 100%;
+  display: flex;
+  margin:auto;
+  padding:0px 20px;
+  
+ }
+ 
+
+ .card mb-3{
+  flex-basis: 25%;
+  padding:0px 30px;
+  
+}
+
+.card-title{
+  text-align: center;
+  justify-self: center;
+  font-size: 24px;
+  margin-top:23px;
+}
+
+.btn {
+  margin-bottom:10px;
+}
+
+
+ /* footer-section-start */
+
+ .footer{
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  background: #ddd;
+  margin:auto;
+  width: 100%;
+  
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+
+/* footer-section-end */
+
+.text-2 p{
+  color:black;
+}
+
+.card-text{
+  color:black;
+}
+
+.center h3{
+  color:black;
+}
+.center p{
+   color:black;
+}
+
+.section-3 .center h3{
+  color:white;
+}
+.section-3 .center p{
+  color:white;
+}
+.card-title h5{
+  color:white;
+}
+
+
